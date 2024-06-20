@@ -1,0 +1,9 @@
+[build]
+  base = "lvtv-website"
+  publish = "lvtv-website/dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
