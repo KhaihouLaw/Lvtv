@@ -10,7 +10,7 @@ type BroadcastItemProps = {
         <img
           src={imageUrl}
           alt="Broadcast Title"
-          className="w-12 h-12 object-cover mr-4"
+          className="w-20 h-20 object-cover mr-4"
         />
         <div>
           <p className="text-sm text-zinc-600">{date}</p>

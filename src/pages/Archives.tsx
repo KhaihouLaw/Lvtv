@@ -13,7 +13,7 @@ function Archives() {
                 <div className="grid grid-cols-2 ">
                     <div className="justify-center">
                         <h1 className="font-color text-2xl font-bold justify-center flex">
-                        Weekly Broadcast
+                            Weekly Broadcast
                         </h1>
 
                         {items.length === 0 && <p>No item found</p>}
@@ -35,7 +35,7 @@ function Archives() {
                         </div>
                     </div>
                     <div className="flex flex-col items-center pt-6">
-                        <div style={{ height: '30vh'}}></div>
+                        <div style={{ height: "30vh" }}></div>
                         <h1 className="font-color text-2xl font-bold justify-center flex">
                             Explore Past Archives
                         </h1>
