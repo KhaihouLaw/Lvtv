@@ -1,9 +1,10 @@
 [build]
-  base = "lvtv-website"
-  publish = "lvtv-website/dist"
-  command = "npm run build"
+  base = "lvtv-website"      # Ensure this directory exists
+  publish = "lvtv-website/dist"  # Ensure this directory is the correct build output
+  command = "npm run build"  # The build command to compile your project
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
