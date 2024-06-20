@@ -9,7 +9,7 @@ import img6 from "../assets/programs/program6.jpg";
 import img5 from "../assets/programs/program5.jpg";
 import img3 from "../assets/programs/program3.jpg";
 import img1 from "../assets/programs/program1.jpg";
-function Home() {
+function LandingPage() {
     return (
         <div>
             <Navbar />
@@ -189,4 +189,4 @@ function Home() {
         </div>
     );
 }
-export default Home;
+export default LandingPage;

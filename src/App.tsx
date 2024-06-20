@@ -20,10 +20,13 @@ import Footer from "./components/Footer";
 import Archives from "./pages/Archives";
 import PastArchives from "./pages/PastArchives";
 import OurStory from "./pages/OurStory";
+import OurStory2 from "./pages/OurStory2";
 import Teleradio from "./pages/Teleradio";
 import Bab from "./pages/Bab";
+import Bab2 from "./pages/BabLanding";
 // import BsaBsais from "./pages/courses/BsaBsais";
 import BsisAct from "./pages/BsisAct";
+import BsisAct2 from "./pages/BsisActLanding";
 // import Bssw from "./pages/courses/Bssw";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import FAQs from "./pages/FAQs";
@@ -52,10 +55,13 @@ const App = () => {
                     <Route path="/PastArchives" element={<PastArchives />} />
                     <Route path="/HomePage" element={<HomePage />} />
                     <Route path="/OurStory" element={<OurStory />} />
+                    <Route path="/OurStory2" element={<OurStory2 />} />
                     <Route path="/Teleradio" element={<Teleradio />} />
                     <Route path="/Bab" element={<Bab />} />
+                    <Route path="/Bab2" element={<Bab2 />} />
                     {/* <Route path="courses/BsaBsais" element={<BsaBsais />} /> */}
                     <Route path="/BsisAct" element={<BsisAct />} />
+                    <Route path="/BsisAct2" element={<BsisAct2 />} />
                     {/* <Route path="courses/Bssw" element={<Bssw />} /> */}
                     <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
                     <Route path="/FAQs" element={<FAQs />} />

@@ -62,7 +62,7 @@ const Header = () => {
                         <li>
                             <NavLink
                                 className="text-xl hover:text-white"
-                                to="/Home"
+                                to="/"
                             >
                                 Home
                             </NavLink>
@@ -121,7 +121,7 @@ const Header = () => {
                                 >
                                     <div className="py-1" role="none">
                                         {/* <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" --> */}
-                                        <NavLink to="/Bab">
+                                        <NavLink to="/Bab2">
                                             <a
                                                 href="#"
                                                 className="text-gray-700 block px-4 py-2 text-sm"
@@ -134,7 +134,7 @@ const Header = () => {
                                         </NavLink>
                                     </div>
                                     <div className="py-1" role="none">
-                                        <NavLink to="/BsisAct">
+                                        <NavLink to="/BsisAct2">
                                             <a
                                                 href="#"
                                                 className="text-gray-700 block px-4 py-2 text-sm"
@@ -178,7 +178,7 @@ const Header = () => {
                         <li>
                             <NavLink
                                 className="text-xl hover:text-white"
-                                to="/OurStory"
+                                to="/OurStory2"
                             >
                                 Our Story
                             </NavLink>
