@@ -121,7 +121,7 @@ const Header = () => {
                                 >
                                     <div className="py-1" role="none">
                                         {/* <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" --> */}
-                                        <NavLink to="courses/Bab">
+                                        <NavLink to="/Bab">
                                             <a
                                                 href="#"
                                                 className="text-gray-700 block px-4 py-2 text-sm"
@@ -134,7 +134,7 @@ const Header = () => {
                                         </NavLink>
                                     </div>
                                     <div className="py-1" role="none">
-                                        <NavLink to="courses/BsisAct">
+                                        <NavLink to="/BsisAct">
                                             <a
                                                 href="#"
                                                 className="text-gray-700 block px-4 py-2 text-sm"
@@ -146,7 +146,7 @@ const Header = () => {
                                             </a>
                                         </NavLink>
                                     </div>
-                                    <div className="py-1" role="none">
+                                    {/* <div className="py-1" role="none">
                                         <NavLink to="courses/BsaBsais">
                                             <a
                                                 href="#"
@@ -171,7 +171,7 @@ const Header = () => {
                                                 BSSW
                                             </a>
                                         </NavLink>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
                         </div>

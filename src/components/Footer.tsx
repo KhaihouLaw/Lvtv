@@ -88,7 +88,7 @@ const Footer = () => {
                         <ul className="flex flex-row justify-center">
                             <li className="pb-3 mx-5">
                                 <a
-                                    href=""
+                                    href="/TermsOfUse"
                                     className="underline hover:text-gray-400"
                                 >
                                     Terms of Use
@@ -96,7 +96,7 @@ const Footer = () => {
                             </li>
                             <li className="pb-3">
                                 <a
-                                    className="hover:text-gray-400"
+                                    className="underline hover:text-gray-400"
                                     onClick={openModal}
                                 >
                                     Privacy Policy
@@ -105,7 +105,7 @@ const Footer = () => {
                                     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full">
                                         <div className="relative top-20 mx-auto p-5 border w-3/4 shadow-lg rounded-md bg-white">
                                             <div className="mt-3 text-center">
-                                                <h3 className="text-lg leading-6 font-medium text-gray-900">
+                                                <h3 className=" text-lg leading-6 font-medium text-gray-900">
                                                     Privacy Policy
                                                 </h3>
                                                 <div className="mt-2 px-7 py-3">
