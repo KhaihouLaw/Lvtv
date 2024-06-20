@@ -1,6 +1,6 @@
 import bluelogo from "../assets/bluelogo.png";
-import PrivacyPolicy from "./PrivacyPolicy";
-import FAQs from "../pages/FAQs";
+// import PrivacyPolicy from "./PrivacyPolicy";
+// import FAQs from "../pages/FAQs";
 import { useState } from "react";
 
 const Footer = () => {

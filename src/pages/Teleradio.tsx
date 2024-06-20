@@ -1,5 +1,5 @@
-import { useRef } from "react";
-import profilePic from "../assets/profile-pic.jpg";
+// // import { useRef } from "react";
+// import profilePic from "../assets/profile-pic.jpg";
 import AuthNavbar from "../components/AuthNavbar";
 import img1 from "../assets/programs/program1.jpg";
 import img2 from "../assets/programs/program2.jpg";
@@ -11,34 +11,34 @@ import img7 from "../assets/programs/program7.jpg";
 import img8 from "../assets/programs/program8.jpg";
 
 const TeleRadio = () => {
-    const iframeRef = useRef<HTMLIFrameElement>(null);
+    // const iframeRef = useRef<HTMLIFrameElement>(null);
 
     const openOwncastPage = () => {
         window.open("http://localhost:8080", "_blank");
     };
 
-    const handleIframeClick = () => {
-        openOwncastPage();
-    };
+    // const handleIframeClick = () => {
+    //     openOwncastPage();
+    // };
 
-    const teams = [
-        {
-            name: "Name1",
-            imageUrl: profilePic,
-        },
-        {
-            name: "Name2",
-            imageUrl: profilePic,
-        },
-        {
-            name: "Name3",
-            imageUrl: profilePic,
-        },
-        {
-            name: "Name4",
-            imageUrl: profilePic,
-        },
-    ];
+    // const teams = [
+    //     {
+    //         name: "Name1",
+    //         imageUrl: profilePic,
+    //     },
+    //     {
+    //         name: "Name2",
+    //         imageUrl: profilePic,
+    //     },
+    //     {
+    //         name: "Name3",
+    //         imageUrl: profilePic,
+    //     },
+    //     {
+    //         name: "Name4",
+    //         imageUrl: profilePic,
+    //     },
+    // ];
     return (
         <div>
             <AuthNavbar />
@@ -108,30 +108,62 @@ const TeleRadio = () => {
                         <div className="flex justify-center flex-row flex-wrap gap-10">
                             <div className="m-5">
                                 <div className="mx-10 flex rounded-sm w-96 h-40  m-10 bg-white shadow hover:shadow-lg">
-                                    <img src={img1} alt="program 1" className="object-contain w-96 h-40" />
+                                    <img
+                                        src={img1}
+                                        alt="program 1"
+                                        className="object-contain w-96 h-40"
+                                    />
                                 </div>
                                 <div className="mx-10 flex rounded-sm w-96 h-40  m-10 bg-white shadow hover:shadow-lg">
-                                    <img src={img2} alt="program 2" className="object-contain w-96 h-40" />
+                                    <img
+                                        src={img2}
+                                        alt="program 2"
+                                        className="object-contain w-96 h-40"
+                                    />
                                 </div>
                                 <div className="mx-10 flex rounded-sm w-96 h-40  m-10 bg-white shadow hover:shadow-lg">
-                                    <img src={img3} alt="program 3" className="object-contain w-96 h-40" />
+                                    <img
+                                        src={img3}
+                                        alt="program 3"
+                                        className="object-contain w-96 h-40"
+                                    />
                                 </div>
                                 <div className="mx-10 flex rounded-sm w-96 h-40  m-10 bg-white shadow hover:shadow-lg">
-                                    <img src={img4} alt="program 4" className="object-contain w-96 h-40" />
+                                    <img
+                                        src={img4}
+                                        alt="program 4"
+                                        className="object-contain w-96 h-40"
+                                    />
                                 </div>
                             </div>
                             <div className="m-5">
                                 <div className="mx-10 flex rounded-sm w-96 h-40 px-10 m-10 bg-white shadow hover:shadow-lg">
-                                    <img src={img5} alt="program 5" className="object-contain w-96 h-40" />
+                                    <img
+                                        src={img5}
+                                        alt="program 5"
+                                        className="object-contain w-96 h-40"
+                                    />
                                 </div>
                                 <div className="mx-10 flex rounded-sm w-96 h-40 px-10 m-10 bg-white shadow hover:shadow-lg">
-                                    <img src={img6} alt="program 6" className="object-contain w-96 h-40" />
+                                    <img
+                                        src={img6}
+                                        alt="program 6"
+                                        className="object-contain w-96 h-40"
+                                    />
                                 </div>
                                 <div className="mx-10 flex rounded-sm w-96 h-40 px-10 m-10 bg-white shadow hover:shadow-lg">
-                                    <img src={img7} alt="program 7" className="object-contain w-96 h-40" />
+                                    <img
+                                        src={img7}
+                                        alt="program 7"
+                                        className="object-contain w-96 h-40"
+                                    />
                                 </div>
                                 <div className="mx-10 flex rounded-sm w-96 h-40 px-10 m-10 bg-white shadow hover:shadow-lg">
-                                    <img src={img8} alt="program 8" className="object-contain w-96 h-40" />
+                                    <img
+                                        src={img8}
+                                        alt="program 8"
+                                        className="object-contain w-96 h-40"
+                                    />
                                 </div>
                             </div>
                         </div>

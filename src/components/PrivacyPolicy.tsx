@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 
 function PrivacyPolicyModal() {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,10 +22,13 @@ function PrivacyPolicyModal() {
                             <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100">
                                 {/* Icon or Image */}
                             </div>
-                            <h3 className="text-lg leading-6 font-medium text-gray-900">Privacy Policy</h3>
+                            <h3 className="text-lg leading-6 font-medium text-gray-900">
+                                Privacy Policy
+                            </h3>
                             <div className="mt-2 px-7 py-3">
                                 <p className="text-sm text-gray-500">
-                                    Your privacy policy details go here. Adjust the size, padding, or margins as needed.
+                                    Your privacy policy details go here. Adjust
+                                    the size, padding, or margins as needed.
                                 </p>
                             </div>
                             <div className="items-center px-4 py-3">

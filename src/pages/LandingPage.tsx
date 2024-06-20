@@ -1,7 +1,6 @@
 // import React from "react";
-import { useAuth } from "../context/AuthContext";
+// import { useAuth } from "../context/AuthContext";
 import Navbar from "../components/Navbar";
-import React from "react";
 import heroImage from "../assets/heroimage.jpg";
 import foundationbanner from "../assets/foundation week banner.jpg";
 import zoomustahan from "../assets/zoomustahan.png";
@@ -10,8 +9,6 @@ import img6 from "../assets/programs/program6.jpg";
 import img5 from "../assets/programs/program5.jpg";
 import img3 from "../assets/programs/program3.jpg";
 import img1 from "../assets/programs/program1.jpg";
-import AuthNavbar from "../components/AuthNavbar";
-
 function Home() {
     return (
         <div>

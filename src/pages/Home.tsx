@@ -1,7 +1,7 @@
 // import React from "react";
-import { useAuth } from "../context/AuthContext";
-import Navbar from "../components/Navbar";
-import React from "react";
+// import { useAuth } from "../context/AuthContext";
+// import Navbar from "../components/Navbar";
+// import React from "react";
 import heroImage from "../assets/heroimage.jpg";
 import foundationbanner from "../assets/foundation week banner.jpg";
 import zoomustahan from "../assets/zoomustahan.png";
