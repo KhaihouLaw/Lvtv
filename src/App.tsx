@@ -31,7 +31,6 @@ import BsisAct2 from "./pages/BsisActLanding";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import FAQs from "./pages/FAQs";
 import TermsOfUse from "./pages/TermsOfUse";
-import Iframe from "./components/OwncastIframe";
 
 // const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
 //   const { isAuthenticated } = useAuth();
@@ -67,7 +66,6 @@ const App = () => {
                     <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
                     <Route path="/FAQs" element={<FAQs />} />
                     <Route path="/TermsOfUse" element={<TermsOfUse />} />
-                    <Route path="/owncast" element={<Iframe />} />
 
                     {/* MOVE TO PROTECTED ROUTES */}
 
