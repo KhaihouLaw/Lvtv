@@ -52,7 +52,8 @@ const Header = () => {
                 </div>
                 {/* WatchLive */}
                 <div className="flex items-center">
-                    <button className="text-xl rounded-lg bg-yellow-400 text-gray-900 px-5 py-2 mr-4 hover:text-white hover:bg-blue-300">
+                    <button className="text-xl rounded-lg bg-yellow-400 text-gray-900 px-5 py-2 mr-4 hover:text-white hover:bg-blue-300"
+                    onClick={() => window.location.href = 'http://128.199.166.235:8080/'}>
                         Watch Live
                     </button>
                     <div className="relative inline-block text-left pr-4">
