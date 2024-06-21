@@ -9,6 +9,7 @@ import img5 from "../assets/programs/program5.jpg";
 import img6 from "../assets/programs/program6.jpg";
 import img7 from "../assets/programs/program7.jpg";
 import img8 from "../assets/programs/program8.jpg";
+import Iframe from "../components/OwncastIframe";
 
 const TeleRadio = () => {
     // const iframeRef = useRef<HTMLIFrameElement>(null);
@@ -55,14 +56,15 @@ const TeleRadio = () => {
                                     className="h-[480px] w-[854px] bg-blue-100/40 z-10 absolute cursor-pointer"
                                     onClick={openOwncastPage}
                                 />
-                                <iframe
+                                <Iframe />
+                                {/* <iframe
                                     src="http://128.199.166.235:8080/embed/video"
                                     width="854"
                                     height="480"
                                     frameBorder={0}
                                     scrolling="no"
                                     //   className="w-full "
-                                ></iframe>
+                                ></iframe> */}
                             </div>
                         </div>
                     </div>
