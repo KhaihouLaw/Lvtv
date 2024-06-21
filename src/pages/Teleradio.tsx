@@ -14,7 +14,7 @@ const TeleRadio = () => {
     // const iframeRef = useRef<HTMLIFrameElement>(null);
 
     const openOwncastPage = () => {
-        window.open("http://localhost:8080", "_blank");
+        window.open("http://128.199.166.235:8080/", "_blank");
     };
 
     // const handleIframeClick = () => {
@@ -56,7 +56,7 @@ const TeleRadio = () => {
                                     onClick={openOwncastPage}
                                 />
                                 <iframe
-                                    src="http://localhost:8080/embed/video"
+                                    src="http://128.199.166.235:8080/embed/video"
                                     width="854"
                                     height="480"
                                     frameBorder={0}
